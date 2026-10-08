@@ -1,0 +1,8 @@
+services:
+  bot:
+    image: ghcr.io/bezyrex/tlgram-bt:latest
+    container_name: zyrexpc-bot
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
