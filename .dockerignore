@@ -7,4 +7,4 @@ bot.log
 bot.pid
 .ruff_cache
 *.md
-.dist
+dist

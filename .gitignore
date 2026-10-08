@@ -4,4 +4,4 @@ __pycache__/
 bot.log
 bot.pid
 .ruff_cache/
-.dist
+dist
