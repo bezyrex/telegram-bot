@@ -74,6 +74,8 @@ Build-only variables (`VERSION`, `DOCKERHUB_PROJECT_NAME`, `GHCR_PROJECT_NAME`, 
 | `/compose <path> <action>` | `docker compose` in `<path>`; actions: `up\|down\|ps\|logs\|restart\|pull\|build` |
 | `/protected` | Show protected container names |
 
+Go to [COMMANDS.md](COMMANDS.md) to get the commands to add to BotFather
+
 Container names may be abbreviated as long as the prefix matches exactly one container.
 
 ## Protection

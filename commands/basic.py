@@ -1,6 +1,9 @@
 from telegram import Update
 from telegram.ext import ContextTypes
 
+with open("version.txt", "r", encoding="utf-8") as versionfile:
+    VERSION = versionfile.read().strip()  
+
 HELP_TEXT = (
     "/ps [filter] - containers (-a)\n"
     "/inspect <name> - details\n"
@@ -22,7 +25,9 @@ HELP_TEXT = (
 
 async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.effective_message.reply_text(
-        "Docker control bot.\nUse /help to see commands.\n\nCommands:\n"
+        "Zyrex Docker Controller. Version: "
+        + VERSION
+        + "\n\nCommands:\n"
         + HELP_TEXT
     )
 
