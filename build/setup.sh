@@ -1,3 +1,4 @@
+#!/bin/bash
 set -euo pipefail
 
 ### Hi. Im Zyrex from the past. 6/10/26. I wanna to say, this project is VibeCoded, with OpenCode. I didn't have time, to make manually. 

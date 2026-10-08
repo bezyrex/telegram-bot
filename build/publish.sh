@@ -1,5 +1,4 @@
 #!/bin/bash
-# We drop -e and pipefail so the script does not stop on error
 set -u
 
 ## Colors
